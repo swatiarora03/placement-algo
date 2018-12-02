@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Placement Algorithm | ICE</title>
+        <style type="text/css">
+            #input-main {
+                width:70%
+            }
+            div {
+                float:left;
+            }
+            .inner{
+                width:100%;
+                margin-top: 10px;
+            }
+            textarea{
+                display: block;
+                height: 200px;
+                width: 100%;
+                background: #FFE;
+            }
+            #output {
+                margin-left: 2%;
+                width: 25%;
+        
+            }
+            button {
+
+                padding:10px;
+            }
+        </style>
+    </head>  
+    <body>
+
+        <div id="input-main">
+            <div class="inner">
+                <label for="studentPreference">Student Preference</label>
+                <textarea id="studentPreference"></textarea>
+            </div>
+            <div class="inner">
+                    <label for="companyPreference">Company Preference</label>
+                    <textarea id="companyPreference"></textarea>
+            </div>
+            <div class="inner">
+                  <label for="buttonSubmit">Click to Calculate Best Match</label>
+                  <button value="Calculate" id="buttonSubmit">Calculate</button>
+            </div>
+        </div>
+        <div id="output">
+                <label for="bestMatch">Best Match</label>
+                <textarea id="bestMatch" style="height:420px"></textarea>
+        </div>
+    </body>    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/scripts/js/index.js"></script>
+    </html>

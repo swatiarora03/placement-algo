@@ -1,0 +1,31 @@
+{
+  "name": "placement-algo",
+  "version": "1.0.0",
+  "description": "Coding Challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swatiarora03/placement-algo.git"
+  },
+  "keywords": [
+    "Placement",
+    "Algorith"
+  ],
+  "author": "Swati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swatiarora03/placement-algo/issues"
+  },
+  "homepage": "https://github.com/swatiarora03/placement-algo#readme",
+  "dependencies": {
+    "hapi": "^17.8.1",
+    "inert": "^5.1.2"
+  }
+}
